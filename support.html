@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – FoxCount</title>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #d8e1ef;
+      --accent: #2563eb;
+      --accent-soft: rgba(37,99,235,0.08);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --card: #111827;
+        --text: #f9fafb;
+        --muted: #d1d5db;
+        --border: #253047;
+        --accent: #93c5fd;
+        --accent-soft: rgba(147,197,253,0.10);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
+    .hero, section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin: 20px 0;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      margin-top: 0;
+      color: var(--text);
+    }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { font-size: 1.5rem; margin-top: 24px; padding-top: 8px; border-top: 1px solid var(--border); }
+    h2:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+    h3 { font-size: 1.1rem; margin-top: 20px; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .pill {
+      display: inline-block;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 10px 14px;
+      background: var(--card);
+      color: var(--text);
+      text-decoration: none;
+    }
+    .notice {
+      background: var(--accent-soft);
+      border: 1px solid rgba(37,99,235,0.20);
+      border-radius: 14px;
+      padding: 14px 16px;
+      color: var(--text);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      background: linear-gradient(180deg, var(--card), var(--card));
+    }
+    .placeholder {
+      color: #b91c1c;
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    ul { padding-left: 20px; }
+  </style>
+
+</head>
+<body>
+<main>
+  <div class="hero">
+    <h1>Support – FoxCount</h1>
+    <p>Public support page for App Store and website use.</p>
+    
+<div class="nav">
+  <a class="pill" href="index.html">Home</a>
+  <a class="pill" href="privacy.html">Privacy / Datenschutz</a>
+  <a class="pill" href="support.html">Support</a>
+  <a class="pill" href="imprint.html">Imprint / Impressum</a>
+  <a class="pill" href="terms.html">Terms / Nutzungsbedingungen</a>
+</div>
+
+  </div>
+  
+<section id="english" lang="en">
+  <h2>Support</h2>
+  <p>If you need help with FoxCount, please contact us at:</p>
+  <p><span class="placeholder">[support email address]</span></p>
+
+  <h3>Support topics</h3>
+  <ul>
+    <li>Bug reports or crashes</li>
+    <li>Questions about gameplay, progress, scores or settings</li>
+    <li>Questions about ads, consent choices or privacy settings</li>
+    <li>Account or purchase questions, if premium features are added later</li>
+  </ul>
+
+  <h3>Information to include in your message</h3>
+  <ul>
+    <li>Your device model</li>
+    <li>Your iOS or iPadOS version</li>
+    <li>The FoxCount app version</li>
+    <li>A short description of the issue</li>
+    <li>Screenshots, if helpful</li>
+  </ul>
+
+  <h3>Response time</h3>
+  <p>We aim to respond within <span class="placeholder">[for example: 3–5 business days]</span>.</p>
+
+  <h3>Privacy questions</h3>
+  <p>For privacy-related questions, please also see the <a href="privacy.html">Privacy Policy</a>.</p>
+</section>
+
+<section id="deutsch" lang="de">
+  <h2>Support</h2>
+  <p>Wenn du Hilfe zu FoxCount benötigst, kontaktiere uns bitte unter:</p>
+  <p><span class="placeholder">[Support-E-Mail-Adresse]</span></p>
+
+  <h3>Support-Themen</h3>
+  <ul>
+    <li>Fehlermeldungen oder Abstürze</li>
+    <li>Fragen zu Spielablauf, Fortschritt, Statistiken oder Einstellungen</li>
+    <li>Fragen zu Werbung, Einwilligung oder Datenschutzoptionen</li>
+    <li>Fragen zu Käufen, falls später Premium-Funktionen ergänzt werden</li>
+  </ul>
+
+  <h3>Bitte in der Nachricht angeben</h3>
+  <ul>
+    <li>Dein Gerätemodell</li>
+    <li>Deine iOS- oder iPadOS-Version</li>
+    <li>Die FoxCount-App-Version</li>
+    <li>Eine kurze Beschreibung des Problems</li>
+    <li>Falls hilfreich: Screenshots</li>
+  </ul>
+
+  <h3>Antwortzeit</h3>
+  <p>Wir bemühen uns um eine Antwort innerhalb von <span class="placeholder">[zum Beispiel: 3–5 Werktagen]</span>.</p>
+
+  <h3>Datenschutzfragen</h3>
+  <p>Für datenschutzbezogene Fragen siehe bitte auch die <a href="privacy.html">Datenschutzerklärung</a>.</p>
+</section>
+
+  <footer>FoxCount • Website bundle for GitHub Pages</footer>
+</main>
+</body>
+</html>
